@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #ZTimestamp!
+SystemOrganization addCategory: #'ZTimestamp'!

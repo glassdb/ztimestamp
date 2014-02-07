@@ -8,7 +8,6 @@ testCreationWithDateFields
 		hour: 0 
 		minute: 0 
 		second: 0 
-		nanoSecond: 0 
 		offset: Duration zero.
 	timestamp := ZTimestamp 
 		year: reference year 

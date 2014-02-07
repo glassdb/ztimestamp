@@ -1,3 +1,3 @@
 accessing
 ntpServerAddress
-	^ NetNameResolver addressForName: self ntpServerHostname 
+	^ NetNameResolver addressForName: self ntpServerHostname

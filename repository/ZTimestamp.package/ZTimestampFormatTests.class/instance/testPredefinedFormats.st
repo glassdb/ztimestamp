@@ -2,7 +2,7 @@ testing
 testPredefinedFormats
 	| reference now |
 	reference := ZTimestampFormat reference24.
-	now := DateAndTime now truncated.
+	now := DateAndTime now rounded.
 	#(ansiC verbose kitchen rfc3339 rfc822 rfc850 unixDate) 
 		do: [ :each | | format target |
 			format := ZTimestampFormat perform: each.

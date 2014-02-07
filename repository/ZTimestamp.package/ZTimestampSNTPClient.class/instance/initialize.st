@@ -1,4 +1,4 @@
 initialize-release
 initialize
 	socket := Socket newUDP.
-	serverAddress := self ntpServerAddress 
+	serverAddress := self ntpServerAddress

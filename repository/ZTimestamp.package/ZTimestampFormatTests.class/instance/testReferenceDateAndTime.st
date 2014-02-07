@@ -11,7 +11,7 @@ testReferenceDateAndTime
 		createDateAndTime.
 	self assert: (format format: reference) equals: reference printString.
 	self assert: (format parse: reference printString) equals: reference.
-	now := DateAndTime now truncated.
+	now := DateAndTime now rounded.
 	self assert: (format format: now) equals: now printString.
 	self assert: (format parse: now printString) equals: now.
 	

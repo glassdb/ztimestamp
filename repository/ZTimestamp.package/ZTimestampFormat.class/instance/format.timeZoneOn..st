@@ -5,4 +5,4 @@ format: object timeZoneOn: stream
 		printOn: stream base: 10 length: 2 padded: true.
 	stream nextPut: $:.
 	object offset minutes
-		printOn: stream base: 10 length: 2 padded: true 
+		printOn: stream base: 10 length: 2 padded: true

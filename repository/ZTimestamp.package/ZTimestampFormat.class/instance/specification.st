@@ -1,3 +1,3 @@
 accessing
 specification
-	^ specification 
+	^ specification

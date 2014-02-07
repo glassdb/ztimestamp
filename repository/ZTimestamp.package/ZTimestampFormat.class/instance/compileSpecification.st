@@ -14,4 +14,4 @@ compileSpecification
 	formatter := elements collect: [ :each | 
 			each isCharacter ifTrue: [ each ] ifFalse: [ (#format:, each, #On:) asSymbol ] ].
 	parser := elements collect: [ :each | 
-			each isCharacter ifTrue: [ each ] ifFalse: [ (#parse, each capitalized, #From:) asSymbol ] ] 
+			each isCharacter ifTrue: [ each ] ifFalse: [ (#parse, each capitalized, #From:) asSymbol ] ]

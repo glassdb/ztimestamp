@@ -4,4 +4,4 @@ readFrom: stream format: formatSpecification
 	and return an instance of me. See ZTimestampFormat for details."
 
 	^ (ZTimestampFormat fromString: formatSpecification)
-			readFrom: stream 
+			readFrom: stream

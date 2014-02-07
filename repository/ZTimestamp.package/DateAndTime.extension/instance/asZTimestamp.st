@@ -2,4 +2,4 @@
 asZTimestamp
 	^ ZTimestamp new
 		jdn: self julianDayNumber 
-		secs: seconds - offset asSeconds
+		secs: self secondsSinceMidnight rounded asInteger - offset

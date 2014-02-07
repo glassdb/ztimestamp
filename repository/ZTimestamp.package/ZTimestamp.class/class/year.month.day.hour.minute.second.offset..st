@@ -10,4 +10,4 @@ year: year month: month day: day hour: hour minute: minute second: second offset
 		secs: (hour * 3600) + (minute * 60) + second.
 	offset isZero 
 		ifFalse: [ timestamp := timestamp - offset ].
-	^ timestamp 
+	^ timestamp

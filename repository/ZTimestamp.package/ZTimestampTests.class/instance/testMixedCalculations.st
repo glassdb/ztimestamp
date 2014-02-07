@@ -1,7 +1,7 @@
 testing
 testMixedCalculations
 	| now delta |
-	now := DateAndTime now truncated asUTC.
+	now := DateAndTime now rounded asUTC.
 	delta := now - self lunarLanding.
 	self assert: delta > Duration zero.
 	self assert: self lunarLanding + delta equals: now asZTimestamp.
