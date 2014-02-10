@@ -2,7 +2,7 @@
 	"class" : {
 		"clockEpoch" : "SvenVanCaekenberghe 5/29/2013 17:06",
 		"clockSeconds" : "SvenVanCaekenberghe 5/29/2013 17:07",
-		"clockTimezoneOffset" : "SvenVanCaekenberghe 5/29/2013 17:16",
+		"clockTimezoneOffset" : "JohanBrichau 02/10/2014 11:11",
 		"epoch" : "SvenVanCaekenberghe 4/24/2012 17:23",
 		"fromClockSeconds:" : "SvenVanCaekenberghe 4/24/2012 17:30",
 		"fromJulianDate:" : "SvenVanCaekenberghe 4/21/2012 20:03",
@@ -13,7 +13,7 @@
 		"initialize" : "SvenVanCaekenberghe 9/14/2012 17:02",
 		"jdnFromYear:month:day:" : "SvenVanCaekenberghe 4/21/2012 20:31",
 		"localTimeZone" : "SvenVanCaekenberghe 4/24/2012 17:25",
-		"now" : "SvenVanCaekenberghe 4/21/2012 20:04",
+		"now" : "DataCurator 02/09/2014 16:43",
 		"readFrom:" : "SvenVanCaekenberghe 10/31/2012 21:00",
 		"readFrom:format:" : "SvenVanCaekenberghe 11/1/2012 13:43",
 		"readInteger:from:" : "SvenVanCaekenberghe 6/27/2013 14:02",

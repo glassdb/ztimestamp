@@ -7,4 +7,4 @@ testBasicFieldAccessors
 	self assert: timestamp dayOfMonth = 20.
 	self assert: timestamp hour = 15.
 	self assert: timestamp minute = 50.
-	self assert: timestamp seconds = 10	
+	self assert: timestamp seconds = 10

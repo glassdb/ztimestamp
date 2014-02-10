@@ -5,4 +5,3 @@ fromJulianDate: julianDate
 	^ self new
 		jdn: julianDate truncated
 		secs: (julianDate fractionPart * 86400) truncated
-		

@@ -3,4 +3,3 @@ fromString: example
 	^ self new
 		specification: example;
 		yourself
-	

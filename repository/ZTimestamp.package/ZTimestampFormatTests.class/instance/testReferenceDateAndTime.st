@@ -14,4 +14,3 @@ testReferenceDateAndTime
 	now := DateAndTime now rounded.
 	self assert: (format format: now) equals: now printString.
 	self assert: (format parse: now printString) equals: now.
-	

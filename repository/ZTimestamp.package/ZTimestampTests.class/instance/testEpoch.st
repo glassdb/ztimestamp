@@ -9,4 +9,3 @@ testEpoch
 	self assert: epoch year equals: -4713.
 	self assert: epoch month equals: 11.
 	self assert: epoch dayOfMonth equals: 24.
-	

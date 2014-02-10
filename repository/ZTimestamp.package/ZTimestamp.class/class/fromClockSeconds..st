@@ -5,4 +5,3 @@ fromClockSeconds: seconds
 	^ self new
 		jdn: self clockEpoch julianDayNumber + (seconds // 86400)
 		secs: self clockEpoch secondsSinceMidnight + (seconds \\ 86400)
-	
