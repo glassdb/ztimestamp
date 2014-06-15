@@ -7,7 +7,10 @@ sync
 	t0 := self now.
 	request := self requestDatagram: t0.
 	result := ByteArray new: 48.
-	socket sendUDPData: request toHost: serverAddress port: self ntpPort.
+	"socket sendUDPData: request toHost: serverAddress port: self ntpPort."
+	socket 
+		connectTo: self ntpPort on: serverAddress;
+		write: request.
 	self receiveDatagram: result.
 	t1 := self now.
 	^ self interpretResult: result t0: t0 t1: t1

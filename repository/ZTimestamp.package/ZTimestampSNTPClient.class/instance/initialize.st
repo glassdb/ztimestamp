@@ -1,4 +1,4 @@
 initialize-release
 initialize
-	socket := Socket newUDP.
+	socket := GsSocket new.
 	serverAddress := self ntpServerAddress

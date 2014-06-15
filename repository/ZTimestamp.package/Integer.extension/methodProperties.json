@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asByteArrayOfSize:" : "JohanBrichau 06/15/2014 16:58",
 		"bitAt:put:" : "JohanBrichau 06/15/2014 15:26",
 		"printOn:base:length:padded:" : "JohanBrichau 02/07/2014 10:58" } }
