@@ -5,6 +5,4 @@ locationForId: id
 	
 	| location |
 	location := self zoneInfoLocation.
-	($/ split: id) do: [ :each |
-		location := location / each ].
-	^ location
+	^ location readOnlyFileNamed: id.
