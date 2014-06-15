@@ -5,4 +5,4 @@ printLocalOn: stream
 	self 
 		printOn: stream 
 		format: #($- $T $: nil) 
-		timezone: self class localTimeZone offset
+		timezone: (Duration seconds: (self class localTimeZone offsetAtLocal: self asDateAndTime asLocal))

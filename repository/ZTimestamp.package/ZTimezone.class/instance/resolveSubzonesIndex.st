@@ -6,4 +6,4 @@ resolveSubzonesIndex
 		| index |
 		index := (subzonesIndex at: each) + 1.
 		resolvedSubzonesIndex at: each put: (subzones at: index) ].
-	subzonesIndex := resolvedSubzonesIndex 
+	subzonesIndex := resolvedSubzonesIndex

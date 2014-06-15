@@ -7,4 +7,4 @@ subzoneForTimestamp: timestamp
 	The subzone depends on the point in time (summer/winter time, history).
 	All objects that respond to #asUnixTime can serve as a timestamp."
 
-	^ self subzoneForUnixTime: timestamp asUnixTime 
+	^ self subzoneForUnixTime: timestamp asUnixTime

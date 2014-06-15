@@ -7,4 +7,4 @@ offsetForLocalTimestamp: timestamp
 	
 	| subzone |
 	subzone := self subzoneForLocalTimestamp: timestamp.
-	^ subzone offset 
+	^ subzone offset

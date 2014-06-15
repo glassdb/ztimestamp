@@ -5,4 +5,4 @@ arithmetic
 	
 	^ self class new
 		jdn: jdn
-		secs: secs + operand asDuration asSeconds
+		secs: secs + operand asDuration asSeconds asInteger

@@ -7,4 +7,4 @@ statistics
 			#totalTimezones -> self timezones size.
 			#totalTransitions -> (self timezones sum: [ :each | each transitions size ]).
 			#totalSubzones -> (self timezones sum: [ :each | each subzones size ])
-		} asDictionary 
+		} asDictionary

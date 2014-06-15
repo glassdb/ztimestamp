@@ -8,4 +8,4 @@ resolveSubzones: rawSubzones abbreviations: abbreviations
 			abbreviation: (abbreviations copyFrom: start to: stop - 1) 
 			offset: each first seconds
 			dst: each second = 1 ].
-	self resolveSubzonesIndex 
+	self resolveSubzonesIndex

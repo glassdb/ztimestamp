@@ -33,4 +33,3 @@ testDaylightSavingTimeTransition
 	self
 		assert: (timezone gmtToLocal: (ZTimestamp fromString: '2014-03-30T01:30:00Z'))
 		equals: (ZTimestamp fromString: '2014-03-30T03:30:00Z').
-

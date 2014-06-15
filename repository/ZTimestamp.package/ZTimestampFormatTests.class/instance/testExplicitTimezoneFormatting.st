@@ -18,4 +18,3 @@ testExplicitTimezoneFormatting
 	self 
 		assert: (format format: summer)
 		equals: '20140801T1300'.
-	

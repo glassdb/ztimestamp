@@ -18,4 +18,3 @@ testPredefinedFormats
 		do: [ :each | | format|
 			format := ZTimestampFormat perform: each.
 			self assert: (format parse: (format format: now)) equals: now ].
-	
