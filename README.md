@@ -1,3 +1,5 @@
+
+
 # ZTimestamp
 
 I am ZTimestamp.
@@ -32,7 +34,18 @@ and can print a representation in arbitrary timezones.
 
 ## Installation
 
+The master branch of this fork mirrors the original repository with Travis tests enabled.
+The gemstone branch is tested against Gemstone2.4, Gemstone3.1, Gemstone3.2
+
 This is a [Pharo Smalltalk](http://wwww.pharo.st) project 
 using [Monticello Filetree](https://github.com/dalehenrich/filetree).
+
+## Build status
+
+
+ - [![gemstone branch:](https://travis-ci.org/glassdb/ztimestamp.png?branch=gemstone)](https://travis-ci.org/glassdb/ztimestamp) gemstone branch
+ - [![master branch (pharo):](https://travis-ci.org/glassdb/ztimestamp.png?branch=master)](https://travis-ci.org/glassdb/ztimestamp)  master branch (pharo)
+ - 
+
 
 Sven Van Caekenberghe, April, 2012. MIT Licensed.
