@@ -5,16 +5,17 @@
 	"classvars" : [
 		"FormatKeys",
 		"Formats" ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "SvenVanCaekenberghe 3/12/2014 22:45",
 	"instvars" : [
 		"specification",
 		"formatter",
 		"parser",
 		"constructor",
 		"weekdayNames",
-		"monthNames" ],
+		"monthNames",
+		"timezone" ],
 	"name" : "ZTimestampFormat",
 	"pools" : [
 		 ],
-	"super" : "Magnitude",
+	"super" : "Object",
 	"type" : "normal" }
